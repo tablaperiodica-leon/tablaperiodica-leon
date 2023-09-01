@@ -1,0 +1,67 @@
+header {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #eca023;
+}
+.text1{
+   font-size: 20px;
+   text-align: center;
+   background-color: rgba(20, 145, 233,.4);
+   padding: 18px;
+   border-radius: 100px;
+   font-size: 20px;
+   font-family: revert;
+}
+.curie{
+   background-color: rgba(69, 79, 74, .8);
+   padding: 50px;
+}
+.dmi{
+   background-color: rgba(20, 113, 233, .8);
+   padding: 50px;
+}
+img{
+  width: 35%;
+  height: 35%;
+  transition: 0.6s;
+  object-fit: cover;
+}
+img:hover{
+  transform: scale(1.2);
+   border-radius: 100px;
+}
+.John{
+      background-color: rgba(94, 140, 90, .8);
+   padding: 50px;
+}
+.fondo2{
+  background-color: rgb(38, 101, 115);
+}
+body{
+  background-color: rgba(197, 197, 197, 1.0);
+}
